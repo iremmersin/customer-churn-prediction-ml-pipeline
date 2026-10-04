@@ -1,0 +1,33 @@
+# Environments & Secrets
+.env
+.env.*
+.venv
+env/
+venv/
+ENV/
+
+# Datasets (Data downloaded from Kaggle)
+*.csv
+data/
+
+# Machine Learning Artifacts
+*.pkl
+artifacts/
+models/
+
+# IDE & Editor
+.vscode/
+.idea/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# OS generated files
+.DS_Store
+Thumbs.db
